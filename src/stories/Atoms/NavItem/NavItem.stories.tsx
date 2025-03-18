@@ -4,7 +4,7 @@ import { User } from "lucide-react";
 import leftIcon from "../../assets/icon_set/left_icon.svg";
 
 const meta = {
-  title: "Example/NavItem",
+  title: "NavItem",
   component: NavItem,
   tags: ["autodocs"],
   args: {},

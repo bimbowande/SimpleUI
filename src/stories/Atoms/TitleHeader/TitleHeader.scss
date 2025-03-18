@@ -1,0 +1,12 @@
+.title-header {
+  font-weight: 300;
+  & a {
+    text-decoration: none;
+    &.secondary {
+      color: black;
+    }
+    &.primary {
+      color: white;
+    }
+  }
+}

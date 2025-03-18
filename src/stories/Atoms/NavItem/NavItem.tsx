@@ -17,6 +17,7 @@ export const NavItem = ({
   iconType,
   text,
   className,
+  children,
   ...props
 }: NavItemProps) => {
   return (
@@ -25,6 +26,7 @@ export const NavItem = ({
       data-testid={dataTestId}
       {...props}
     >
+      {children}
       <IconDisplay iconType={iconType} iconSrc={iconSrc} />
       {text}
     </li>
